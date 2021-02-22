@@ -1,6 +1,6 @@
 # dango.github.io
 Click on the link below to visit
-d4ngo.github.io/dango/
+https://d4ngo.github.io/dango/
 
 This is a website for our group which in still under development.
 
