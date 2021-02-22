@@ -14,8 +14,7 @@ This is a website for our group which in still under development.
 6. Type  ``` git push origin master ``` .
 7. Send a pull request to the main repo in dango by clicking the below link/button.
 
-
-
+![pull icon](https://github.com/D4Ngo/dango/blob/master/image/pull.png)
 
 Next after the pull request is merged you need to sync your repo to the original
 or you Could just delete the fork repo and start from step 1 again :).
