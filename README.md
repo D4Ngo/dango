@@ -1,6 +1,6 @@
 # dango.github.io
 Click on the link below to visit
-https://fluffyp4nd4.github.io/dango.github.io/
+d4ngo.github.io/dango/
 
 This is a website for our group which in still under development.
 
