@@ -34,7 +34,7 @@ Remember to put you image in /image folder.
 
 ### The other best thing you could do
 The other thing you could do is  make a one page .html (Also note its better to put any css styling or js code in the same file itself)
-do the following steps to send a PR for merging you file with the main project.
+do the the steps given in contributng to send a PR for merging you file with the main project.
 
 P.S you could also add the link to your section part of the members or we could do it
 
