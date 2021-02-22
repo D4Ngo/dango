@@ -1,0 +1,195 @@
+body{
+	animation-name: body;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+#logo{
+	padding:10px;
+	margin-bottom: 10px;
+	width: 50vw;
+	display: inline-flex;
+}
+#home{
+	background-image:linear-gradient( to bottom,lightblue,skyblue,#DBF3FA);
+	height: 100vh;
+	width: 100%;
+	padding: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+#project{
+	background-image:linear-gradient( to bottom,lightgreen,#B7FFBF,#A5FE97);
+	height: 100vh;
+	width: 100%;
+	padding: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+#members{
+	background: lightgrey;
+	height: 100vh;
+	width: 99%;
+	padding: 5px;
+	margin: 0 auto;
+	text-align: left;
+}
+#img_logo{
+	margin-left: 25%;
+	max-width: 100px
+
+}
+
+.logo .contact-us {
+	padding: 1rem 0;
+	background: red;
+	font-size: 1.1rem;
+	max-width: 100px;
+}
+
+.logo .contact-us i:hover {
+	color: #a1c4cf;
+}
+.links{
+	border:0px;
+	margin: 0px;
+	font-size: 26px;
+	background-color:white;
+	cursor: pointer;
+	border-top-left-radius: 10px
+	font-weight:bolder;
+
+}
+
+.home:hover {
+	background: lightblue;
+}
+.members:hover{
+	background:lightgrey ;
+}
+.projects:hover{
+	background: lightgreen;
+}
+footer{
+	width:100%;
+	padding: 0px;
+	padding-top: 2px;
+	text-align: center;
+	background: #233240;
+}
+.members-link{
+	padding-right: 10px;
+	display: inline-block;
+	text-align: center;
+	font-style: italic;
+	
+}
+.project-section{
+	background: white;
+	height: 30%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.index-section{
+	background: white;
+	height: 30%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+.members-section{
+	background: white;
+	height: 30%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+.dp{
+	width:100px;
+	height:100px;
+	float: left;
+	padding-right: 15px; 
+}
+
+@keyframes body{
+	from{
+		background-color: hue;
+	}
+	to{
+		background-color: lightpink;
+	}
+}
+
+
+
+@media only screen and (max-width: 600px){
+	#img_logo{
+		margin-right: 10%; 
+		width: 80%;
+		height: 80%;
+
+	}
+	.title-head{ 
+		text-align: left;
+		font-size: 15px;
+	}
+	#logo{
+		width: 100%;
+	}
+	.members-section{
+		background: white;
+		padding: 5px;
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-top: 2%;
+	}
+	.project-section{
+		background: white;
+		padding: 5px;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 2%;
+	}
+	.index-section{
+		background: white;
+		padding: 5px;
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-top: 2%;
+	}
+	#home{
+		background-image:linear-gradient( to bottom,lightblue,skyblue,#DBF3FA);
+		padding: 5px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#project{
+		background-image:linear-gradient( to bottom,lightgreen,#B7FFBF,#A5FE97);
+		padding: 5px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#members{
+		background: lightgrey;
+		padding: 5px;
+		margin: 0 auto;
+		text-align: right;
+	}
+	.members-link{
+		display: inline-block;
+		font-style: italic;
+		font-size: 15px;
+		text-align: left;ss
+	}
+	.links{
+		border:0px;
+		margin: 0px;
+		font-size: 20px;
+		background-color:white;
+		cursor: pointer;
+		border-top-left-radius: 10px
+		font-weight:bolder;
+	}
+
+}
